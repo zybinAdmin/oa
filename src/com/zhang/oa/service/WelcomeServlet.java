@@ -64,6 +64,7 @@ public class WelcomeServlet extends HttpServlet {
                 response.sendRedirect(request.getContextPath()+"/index.jsp");
             }
 
+
         } else {
             response.sendRedirect(request.getContextPath()+"/index.jsp");
         }

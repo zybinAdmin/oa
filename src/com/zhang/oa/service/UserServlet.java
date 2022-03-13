@@ -19,6 +19,8 @@ public class UserServlet extends HttpServlet {
     PreparedStatement ps = null;
     ResultSet rs = null;
 
+
+
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {

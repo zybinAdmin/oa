@@ -153,6 +153,8 @@ public class DeptServlet extends HttpServlet {
         request.getRequestDispatcher("/edit.jsp").forward(request,response);
     }
 
+
+
     /**
      * 查询部门详细信息
      * @param request
